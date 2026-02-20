@@ -1,0 +1,12 @@
+# 104 職缺爬蟲系統 - Portable 版本依賴套件
+# 基於 auto_env 環境的實際版本
+
+# 核心依賴
+requests==2.32.5
+schedule==1.2.2
+PyYAML==6.0.3
+playwright==1.58.0
+
+# 可選依賴（如需完整功能）
+# pandas==3.0.0  # 如果需要資料分析功能
+# lxml==6.0.2    # 如果需要 HTML 解析

@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Portable Python Environment
+# The entire python folder is ignored to save space, users should use setup.bat to download
+python/
+
+# Browser Automation (Playwright/Chrome)
+# Chrome user data contains personal data and large cache files
+chrome_user_data/
+
+# Application Data & Logs
+# Ignore scraped data but keep the folder structure if needed
+data/jobs/
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Obsidian output directory
+# Keep the script from pushing personal obsidian notes space
+C:/ObsidianVault/

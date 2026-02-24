@@ -1,0 +1,159 @@
+# 104 人力銀行技術關鍵字清單
+# 此檔案可由用戶自行編輯與擴充
+
+# 程式語言
+languages:
+  - Python
+  - R
+  - Java
+  - JavaScript
+  - TypeScript
+  - C++
+  - C#
+  - Go
+  - Scala
+  - Julia
+  - MATLAB
+  - SAS
+  - VBA
+
+# 資料庫
+databases:
+  - PostgreSQL
+  - MySQL
+  - MongoDB
+  - Redis
+  - Snowflake
+  - BigQuery
+  - Oracle
+  - SQL Server
+  - MariaDB
+  - Cassandra
+  - DynamoDB
+  - ClickHouse
+  - Elasticsearch
+
+# 資料工程工具
+data_engineering:
+  - Apache Airflow
+  - Apache Kafka
+  - Apache Spark
+  - Apache Flink
+  - dbt
+  - ETL
+  - ELT
+  - Data Pipeline
+  - Data Warehouse
+  - Data Lake
+  - Hadoop
+  - Hive
+  - Presto
+  - Sqoop
+  - Flume
+
+# 資料分析工具
+data_analysis:
+  - Tableau
+  - Power BI
+  - Looker
+  - Qlik
+  - Excel
+  - Pandas
+  - NumPy
+  - SciPy
+  - Jupyter
+  - Google Data Studio
+  - Metabase
+  - Grafana
+
+# RPA 工具
+rpa:
+  - UiPath
+  - Automation Anywhere
+  - Blue Prism
+  - Power Automate
+  - RPA
+  - Robotic Process Automation
+  - WinAutomation
+  - Kofax
+
+# 雲端平台
+cloud:
+  - AWS
+  - Azure
+  - GCP
+  - Google Cloud
+  - Alibaba Cloud
+  - IBM Cloud
+
+# DevOps 與版本控制
+devops:
+  - Docker
+  - Kubernetes
+  - Git
+  - GitHub
+  - GitLab
+  - Jenkins
+  - CI/CD
+  - Terraform
+  - Ansible
+  - Vagrant
+
+# 機器學習與 AI
+machine_learning:
+  - Machine Learning
+  - Deep Learning
+  - TensorFlow
+  - PyTorch
+  - Keras
+  - scikit-learn
+  - XGBoost
+  - LightGBM
+  - NLP
+  - Computer Vision
+  - CNN
+  - RNN
+  - LSTM
+  - Transformer
+
+# API 與網頁技術
+web_api:
+  - API
+  - RESTful
+  - GraphQL
+  - FastAPI
+  - Flask
+  - Django
+  - Node.js
+  - React
+  - Vue.js
+  - Angular
+
+# 資料視覺化
+visualization:
+  - D3.js
+  - Plotly
+  - Matplotlib
+  - Seaborn
+  - ggplot2
+  - Bokeh
+
+# 專案管理與方法論
+project_management:
+  - Agile
+  - Scrum
+  - Kanban
+  - Jira
+  - Confluence
+
+# 其他技術
+others:
+  - Linux
+  - Shell Script
+  - Bash
+  - PowerShell
+  - Selenium
+  - BeautifulSoup
+  - Scrapy
+  - OpenCV
+  - CUDA

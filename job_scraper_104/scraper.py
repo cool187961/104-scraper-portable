@@ -84,22 +84,6 @@ class JobScraper:
                 # 技術名詞處理（加上連結並學習新關鍵字）
                 job_data = self.keyword_linker.process_job_data(job_data)
                 
-                # 相關性過濾器 (Relevance Filter)
-                # 檢查 `REQUIRED_KEYWORDS` 是否存在於標題或工作內容中
-                if hasattr(config, 'REQUIRED_KEYWORDS') and config.REQUIRED_KEYWORDS:
-                    title_lower = job_data.get('title', '').lower()
-                    desc_lower = job_data.get('job_description', '').lower()
-                    
-                    is_relevant = False
-                    for req_kw in config.REQUIRED_KEYWORDS:
-                        if req_kw.lower() in title_lower or req_kw.lower() in desc_lower:
-                            is_relevant = True
-                            break
-                    
-                    if not is_relevant:
-                        logger.info(f"過濾無關職缺：{job_data['title']} (未包含必要關鍵字)")
-                        continue
-                
                 # 加入結果清單
                 jobs.append(job_data)
                 self.scraped_job_ids.add(job_id)

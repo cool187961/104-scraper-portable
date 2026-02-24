@@ -94,8 +94,8 @@ class Job104APIClient:
                 await asyncio.sleep(5)  # 等待頁面穩定
                 
                 # 滾動頁面以載入更多職缺
-                await page_obj.evaluate("window.scrollTo(0, document.body.scrollHeight / 2)")
-                await asyncio.sleep(2)
+                #await page_obj.evaluate("window.scrollTo(0, document.body.scrollHeight / 2)")
+                #await asyncio.sleep(2)
                 
                 # 從所有連結中提取職缺 ID
                 job_ids = await page_obj.evaluate("""

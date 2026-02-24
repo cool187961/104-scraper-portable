@@ -1,12 +1,16 @@
 auto_learned:
+- 3ds Max
 - 6 Sigma
 - ABAP
 - AJAX
 - ANSI SQL
 - ASP
 - ASP.NET
+- Access
+- Adabas
 - Adobe Acrobat
 - Adobe Photoshop
+- After Effects
 - Android
 - AngularJS
 - ArcGis
@@ -25,6 +29,7 @@ auto_learned:
 - Cold Fusion
 - DB2
 - DHCP
+- DHTML
 - DNS
 - DSP
 - Data Architect
@@ -40,6 +45,7 @@ auto_learned:
 - Firebase
 - Firewall
 - Flutter
+- ForeHelp
 - GIS
 - Github
 - Google Analytics
@@ -49,16 +55,22 @@ auto_learned:
 - HTML
 - HTTP
 - Hubs
+- IDS
 - IIS
+- IPS
 - ISO 14000
 - ISO 9000
 - Illustrator
+- Image/Imaging
+- ImageReady
 - Informatica
 - Instagram
 - Internet Explorer
 - IoT
 - JIRA
+- JSP
 - Kotlin
+- LAN
 - LLM
 - LabVIEW
 - Line
@@ -70,6 +82,7 @@ auto_learned:
 - Matlab
 - Microsoft Azure
 - Microsoft Exchange
+- Microsoft Photo Editor
 - Microsoft SharePoint
 - MidJourney
 - ODBC
@@ -82,6 +95,9 @@ auto_learned:
 - Outlook
 - PHP
 - PL/SQL
+- PLC
+- Perl
+- PhotoImpact
 - Power BI​
 - PowerPoint
 - Premiere
@@ -112,6 +128,7 @@ auto_learned:
 - TCP/IP
 - Teradata
 - UML
+- UNIX
 - Unity
 - Unity3D
 - VLAN
@@ -134,6 +151,7 @@ auto_learned:
 - Windows Server 2008
 - Windows Server 2012
 - Windows Server 2019
+- Windows XP
 - Word
 - XML
 - XML Web services
@@ -144,6 +162,7 @@ auto_learned:
 - tensorflow
 - 中文打字20~50
 - 中文打字50~75
+- 中文打字75~100
 - 天心資訊
 - 短影音
 - 英文打字20~50

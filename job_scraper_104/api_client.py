@@ -83,8 +83,11 @@ class Job104APIClient:
                 context = browser.contexts[0]
                 page_obj = context.pages[0] if context.pages else await context.new_page()
                 
+                # 取得排序值 (date: 16, relevance: 15)
+                order = 16 if config.SORT_BY == 'date' else 15
+                
                 # 導航到搜尋頁面
-                search_url = f"https://www.104.com.tw/jobs/search/?keyword={keyword}&page={page}"
+                search_url = f"https://www.104.com.tw/jobs/search/?keyword={keyword}&order={order}&page={page}&searchJobs=1"
                 logger.info(f"導航到: {search_url}")
                 
                 await page_obj.goto(search_url, wait_until='domcontentloaded', timeout=60000)
